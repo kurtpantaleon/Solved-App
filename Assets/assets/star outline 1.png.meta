@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9e6bd8b6a89f9214c9618114110bbb25
+guid: 1f6762a329d5372478bb2f2d64dd9f3e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1090217281897295437
-    second: char1_0
+      213: -4699520959549322509
+    second: star outline 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: char1_0
+      name: star outline 1_0
       rect:
         serializedVersion: 2
-        x: 666
-        y: 218
-        width: 593
-        height: 622
+        x: 647
+        y: 378
+        width: 366
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4eea7777da312f00800000000000000
-      internalID: 1090217281897295437
+      spriteID: 3fa4f8f1692f7ceb0800000000000000
+      internalID: -4699520959549322509
       vertices: []
       indices: 
       edges: []
