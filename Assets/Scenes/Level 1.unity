@@ -788,7 +788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1579385037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -862,6 +862,7 @@ GameObject:
   - component: {fileID: 1741332257}
   - component: {fileID: 1741332256}
   - component: {fileID: 1741332255}
+  - component: {fileID: 1741332258}
   m_Layer: 0
   m_Name: text btn 2
   m_TagString: Untagged
@@ -932,7 +933,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1741332256}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1741332258}
+        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
+        m_MethodName: PlaySoundAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1741332256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -971,6 +984,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1741332253}
   m_CullTransparentMesh: 1
+--- !u!114 &1741332258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741332253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level 1.1
+  clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
+  delayBeforeLoad: 0.5
 --- !u!1 &1790881192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1194,6 +1222,7 @@ GameObject:
   - component: {fileID: 2008260432}
   - component: {fileID: 2008260431}
   - component: {fileID: 2008260430}
+  - component: {fileID: 2008260433}
   m_Layer: 0
   m_Name: text btn 1
   m_TagString: Untagged
@@ -1264,7 +1293,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2008260431}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2008260433}
+        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
+        m_MethodName: PlaySoundAndLoadScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2008260431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1303,6 +1344,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2008260428}
   m_CullTransparentMesh: 1
+--- !u!114 &2008260433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008260428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level 1.1
+  clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
+  delayBeforeLoad: 0.5
 --- !u!1 &2013703585
 GameObject:
   m_ObjectHideFlags: 0
