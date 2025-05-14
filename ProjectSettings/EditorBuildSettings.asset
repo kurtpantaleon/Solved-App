@@ -53,6 +53,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level WrongPick.unity
     guid: 7763ded76d1a9cc4b838dc5cd02875dd
+  - enabled: 1
+    path: Assets/Scenes/Level 5.2.unity
+    guid: bf3cbcde5ecf1484280c811d4abee744
+  - enabled: 1
+    path: Assets/Scenes/Level 4.1.unity
+    guid: bf183775e4a27ba439cd9ecca11539fc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

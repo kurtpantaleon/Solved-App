@@ -994,8 +994,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 972483704}
-        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
-        m_MethodName: PlaySoundAndLoadScene
+        m_TargetAssemblyTypeName: ChoiceButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1052,10 +1052,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 972483699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Script: {fileID: 11500000, guid: a32acd2275764ff4aa732185c420bad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level 1.3
+  isCorrectAnswer: 1
+  nextSceneName: Level 1.3
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1 &1295328154
@@ -1143,8 +1144,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1295328159}
-        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
-        m_MethodName: PlaySoundAndLoadScene
+        m_TargetAssemblyTypeName: ChoiceButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1201,10 +1202,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1295328154}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Script: {fileID: 11500000, guid: a32acd2275764ff4aa732185c420bad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level WrongPick
+  isCorrectAnswer: 0
+  nextSceneName: Level WrongPick
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1 &1563589683
@@ -1779,8 +1781,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2056339625}
-        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
-        m_MethodName: PlaySoundAndLoadScene
+        m_TargetAssemblyTypeName: ChoiceButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1837,10 +1839,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2056339620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Script: {fileID: 11500000, guid: a32acd2275764ff4aa732185c420bad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level WrongPick
+  isCorrectAnswer: 0
+  nextSceneName: Level WrongPick
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1 &2080955956
@@ -1928,8 +1931,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2080955961}
-        m_TargetAssemblyTypeName: SceneLoaderWithSFX, Assembly-CSharp
-        m_MethodName: PlaySoundAndLoadScene
+        m_TargetAssemblyTypeName: ChoiceButtonHandler, Assembly-CSharp
+        m_MethodName: OnButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1986,10 +1989,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2080955956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Script: {fileID: 11500000, guid: a32acd2275764ff4aa732185c420bad9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level WrongPick
+  isCorrectAnswer: 0
+  nextSceneName: Level WrongPick
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1660057539 &9223372036854775807
