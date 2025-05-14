@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Solved App.sln"
+    "dotnet.defaultSolution": "Solved-App.sln"
 }
