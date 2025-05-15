@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrectAnswer: 1
-  nextSceneName: Level 2.2
+  nextSceneName: Level 2.1
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1 &996948067
