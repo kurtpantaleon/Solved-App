@@ -59,6 +59,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4.1.unity
     guid: bf183775e4a27ba439cd9ecca11539fc
+  - enabled: 1
+    path: Assets/Scenes/Level Selection Hard.unity
+    guid: a8431ba48ca0c5a45beac29fb0d65f75
+  - enabled: 1
+    path: Assets/Scenes/Level Selection Moderate.unity
+    guid: c253e72f9d0edb04a833ae796bf22fa2
+  - enabled: 1
+    path: Assets/Scenes/draft.unity
+    guid: 3bb99e5caf19c084f905bbe061ab9d6b
+  - enabled: 1
+    path: Assets/Scenes/Hard 1.unity
+    guid: 87ba8c91293de6e4cbc930997b40302f
+  - enabled: 1
+    path: Assets/Scenes/Hard 2.unity
+    guid: 08b59d8fa146e074a993124c5faea9f6
+  - enabled: 1
+    path: Assets/Scenes/Hard 3.unity
+    guid: 9b57b0de2cc5f2b42a3e6d47f7b3ea4e
+  - enabled: 1
+    path: Assets/Scenes/Moderate 1.unity
+    guid: 2fe2a3bd692c44743a00d4ae9e4ca412
+  - enabled: 1
+    path: Assets/Scenes/Moderate 2.unity
+    guid: a8fd16f66ec6a8243b3e6f4d3ad15c0c
+  - enabled: 1
+    path: Assets/Scenes/Moderate 3.unity
+    guid: 9042522c77589104ebd1bd0c988db5e8
+  - enabled: 1
+    path: Assets/Scenes/Moderate 4.unity
+    guid: 58b7e7833954dcd47a4a31954bfc1b73
+  - enabled: 1
+    path: Assets/Scenes/Moderate 4.1 Correct.unity
+    guid: 4f011701829da0443ad133998929d8ae
+  - enabled: 1
+    path: Assets/Scenes/Moderate 4.2  Wrong.unity
+    guid: 958b9b4fe91ca9c46a5bf9c841f36b31
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
