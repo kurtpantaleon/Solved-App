@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 205348291}
   - component: {fileID: 205348290}
   m_Layer: 0
-  m_Name: True Mother
+  m_Name: True son
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -337,8 +337,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 550, y: -132}
-  m_SizeDelta: {x: 485.64, y: 377.55}
+  m_AnchoredPosition: {x: 461, y: -148}
+  m_SizeDelta: {x: 223.25, y: 189.66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &205348290
 MonoBehaviour:
@@ -360,7 +360,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8238061126676538770, guid: 19c67982f17b1bb4786227f23420dc1b, type: 3}
+  m_Sprite: {fileID: -5621493272939819607, guid: 47c1b490ae5f1cc46ae29d604d25cc56, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 299472348}
   - component: {fileID: 299472347}
   m_Layer: 0
-  m_Name: Child
+  m_Name: MotherFather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -412,8 +412,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -92.305, y: -448.22}
-  m_SizeDelta: {x: 361.21, y: 264.53}
+  m_AnchoredPosition: {x: -716, y: -344.42}
+  m_SizeDelta: {x: 575.01, y: 478.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &299472347
 MonoBehaviour:
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1860615339014388486, guid: 8c283db8ddfb6474892356184030712e, type: 3}
+  m_Sprite: {fileID: -5214115675450112596, guid: 85e7a4de01f4de44c975a599510dc46a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -465,7 +465,7 @@ GameObject:
   - component: {fileID: 304028123}
   - component: {fileID: 304028122}
   m_Layer: 0
-  m_Name: Mother 1
+  m_Name: Son3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 731, y: -367.97}
+  m_AnchoredPosition: {x: 757, y: -285.38}
   m_SizeDelta: {x: 469.4, y: 425.02}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304028122
@@ -563,7 +563,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 45, y: -28.003}
+  m_AnchoredPosition: {x: 45, y: -28.00299}
   m_SizeDelta: {x: 173.96997, y: 162.78998}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &405507514
@@ -739,7 +739,7 @@ GameObject:
   - component: {fileID: 1207027559}
   - component: {fileID: 1207027558}
   m_Layer: 0
-  m_Name: Mother 3
+  m_Name: Son2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -761,7 +761,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -52, y: -64}
+  m_AnchoredPosition: {x: -52, y: -87}
   m_SizeDelta: {x: 441.82, y: 352.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207027558
@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 1266909532}
   - component: {fileID: 1266909531}
   m_Layer: 0
-  m_Name: 'Mother 2 '
+  m_Name: Son1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -836,8 +836,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -346, y: -187.41}
-  m_SizeDelta: {x: 518.45, y: 374.82}
+  m_AnchoredPosition: {x: 60.23, y: -344.24}
+  m_SizeDelta: {x: 456.9, y: 307.29}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1266909531
 MonoBehaviour:
@@ -987,8 +987,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.73, y: -0.0000076294}
-  m_SizeDelta: {x: 1443.87, y: 305.78}
+  m_AnchoredPosition: {x: 0, y: -0.0000076294}
+  m_SizeDelta: {x: 1414.72, y: 305.78}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2011957633
 MonoBehaviour:
@@ -1010,9 +1010,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Si pinky ay bagong dating lanang sa kanilang kulungan dahil may nakapag
-    sabi sa kanya na andito ang kanyang nanay. Maaari ba natin siyang tulungan upang
-    makita ang kanyang magulang?
+  m_text: 'may mag asawa na hayop or tao and then kinakailangan mahanap ng student
+    ang anak nila sa pamamagitan ng pag obserba sa mga katangian ng magulang.
 
 '
   m_isRightToLeft: 0
