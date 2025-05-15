@@ -8,7 +8,8 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     private Transform originalParent;
     private Canvas parentCanvas;
 
-    public bool isPlacedCorrectly = false; 
+    public bool isPlacedCorrectly = false;
+    public bool isPlaced = false; // New field to track if item has been placed at all
 
     void Start()
     {
@@ -20,6 +21,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         startPosition = transform.position;
         originalParent = transform.parent;
         isPlacedCorrectly = false;
+        isPlaced = false;
 
         // Bring to front
         transform.SetParent(parentCanvas.transform);
@@ -44,6 +46,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                 // Snap to any drop area
                 transform.position = dropArea.transform.position;
                 transform.SetParent(dropArea.transform);
+                isPlaced = true;
 
                 // Only correct if tag matches
                 isPlacedCorrectly = dropArea.CompareTag(correctDropAreaTag);
@@ -54,6 +57,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         // If not dropped on any drop area, return to start
         transform.position = startPosition;
         transform.SetParent(originalParent);
+        isPlaced = false;
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -64,6 +68,7 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
             transform.position = startPosition;
             transform.SetParent(originalParent);
             isPlacedCorrectly = false;
+            isPlaced = false;
             DragDropManager.Instance.CheckAllItems();
         }
     }
