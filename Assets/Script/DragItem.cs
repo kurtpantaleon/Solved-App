@@ -69,6 +69,12 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                 if (dropArea.wrongImage != null)
                     dropArea.wrongImage.SetActive(!isPlacedCorrectly);
 
+                // Play SFX
+                if (isPlacedCorrectly)
+                    dropArea.PlayCorrectSFX();
+                else
+                    dropArea.PlayWrongSFX();
+
                 return;
             }
         }
