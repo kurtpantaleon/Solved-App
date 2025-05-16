@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Level Selection
+  sceneToLoad: Level 5
   clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
   delayBeforeLoad: 0.5
 --- !u!1 &1453791503
