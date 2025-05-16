@@ -13,6 +13,11 @@ TagManager:
   - Mother 1
   - Mother 2
   - Mother 3
+  - tail area
+  - ear right area
+  - ear left area
+  - nose area
+  - eye area
   layers:
   - Default
   - TransparentFX
