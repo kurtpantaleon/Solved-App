@@ -889,6 +889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a361389d9f6394487a174153fdb7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentItem: {fileID: 0}
 --- !u!1 &278252401
 GameObject:
   m_ObjectHideFlags: 0
@@ -1202,6 +1203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a361389d9f6394487a174153fdb7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentItem: {fileID: 0}
 --- !u!1 &447872038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,6 +1292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2a361389d9f6394487a174153fdb7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentItem: {fileID: 0}
 --- !u!1 &473185433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,7 +1968,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dragItems:
   - {fileID: 299472349}
-  nextSceneName: Level Selection Hard
+  nextSceneName: Hard 2
   submitButton: {fileID: 278252401}
   feedbackText: {fileID: 23639985}
 --- !u!4 &1486860307
