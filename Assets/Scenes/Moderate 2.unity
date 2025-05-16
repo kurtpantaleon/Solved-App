@@ -821,7 +821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 9845902}
+  panelIcon: {fileID: 1652710460}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &325645007
 MonoBehaviour:
@@ -1079,7 +1079,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -127}
+  m_AnchoredPosition: {x: 0, y: -127.000015}
   m_SizeDelta: {x: -1659.62, y: -1039.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565939157
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 9845902}
+  panelIcon: {fileID: 741826623}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &1549667889
 MonoBehaviour:
@@ -3711,7 +3711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 9845902}
+  panelIcon: {fileID: 1811392759}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &1821933193
 MonoBehaviour:
@@ -4021,7 +4021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 9845902}
+  panelIcon: {fileID: 1504367447}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &1899394567
 MonoBehaviour:
@@ -4247,7 +4247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 9845902}
+  panelIcon: {fileID: 212312071}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &2130080320
 MonoBehaviour:

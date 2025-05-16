@@ -216,7 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 1114059667}
+  panelIcon: {fileID: 1567129775}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &39190757
 MonoBehaviour:
@@ -2014,7 +2014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 1114059667}
+  panelIcon: {fileID: 497923427}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &822829192
 MonoBehaviour:
@@ -2226,7 +2226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -127}
+  m_AnchoredPosition: {x: 0, y: -127.000015}
   m_SizeDelta: {x: -1659.62, y: -1039.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &881330146
@@ -2484,7 +2484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 1114059667}
+  panelIcon: {fileID: 375765911}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &972278543
 MonoBehaviour:
@@ -2621,7 +2621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 1114059667}
+  panelIcon: {fileID: 298359698}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &997088364
 MonoBehaviour:
@@ -3800,7 +3800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6ae11aadabb9644ba029edbe639abf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panelIcon: {fileID: 1114059667}
+  panelIcon: {fileID: 2083153732}
   grayscaleMaterial: {fileID: 2100000, guid: 6a025fdedfd7d6c49af1608a3471c289, type: 2}
 --- !u!114 &1362254585
 MonoBehaviour:
