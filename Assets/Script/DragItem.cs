@@ -62,12 +62,25 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                     lastDropArea.currentItem = null;
 
                 lastDropArea = dropArea;
+
+                // Show correct/wrong image
+                if (dropArea.correctImage != null)
+                    dropArea.correctImage.SetActive(isPlacedCorrectly);
+                if (dropArea.wrongImage != null)
+                    dropArea.wrongImage.SetActive(!isPlacedCorrectly);
+
                 return;
             }
         }
         // If not dropped on any drop area, return to start
         if (lastDropArea != null)
         {
+            // Hide images if returning to start
+            if (lastDropArea.correctImage != null)
+                lastDropArea.correctImage.SetActive(false);
+            if (lastDropArea.wrongImage != null)
+                lastDropArea.wrongImage.SetActive(false);
+
             lastDropArea.currentItem = null;
             lastDropArea = null;
         }
@@ -80,9 +93,14 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         if (transform.parent != originalParent)
         {
-            // If currently in a drop area, free it
+            // If currently in a drop area, free it and hide images
             if (lastDropArea != null)
             {
+                if (lastDropArea.correctImage != null)
+                    lastDropArea.correctImage.SetActive(false);
+                if (lastDropArea.wrongImage != null)
+                    lastDropArea.wrongImage.SetActive(false);
+
                 lastDropArea.currentItem = null;
                 lastDropArea = null;
             }
