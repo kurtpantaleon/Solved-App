@@ -11,6 +11,8 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     public bool isPlacedCorrectly = false;
     public bool isPlaced = false; // New field to track if item has been placed at all
 
+    private DropArea lastDropArea = null;
+
     void Start()
     {
         parentCanvas = GetComponentInParent<Canvas>();
@@ -41,9 +43,9 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
         foreach (var result in results)
         {
             DropArea dropArea = result.gameObject.GetComponent<DropArea>();
-            if (dropArea)
+            if (dropArea && dropArea.currentItem == null)
             {
-                // Snap to any drop area
+                // Snap to any empty drop area
                 transform.position = dropArea.transform.position;
                 transform.SetParent(dropArea.transform);
                 isPlaced = true;
@@ -51,10 +53,24 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
                 // Only correct if tag matches
                 isPlacedCorrectly = dropArea.CompareTag(correctDropAreaTag);
                 DragDropManager.Instance.CheckAllItems();
+
+                // Mark this drop area as occupied
+                dropArea.currentItem = this;
+
+                // If previously in another drop area, clear it
+                if (lastDropArea != null && lastDropArea != dropArea)
+                    lastDropArea.currentItem = null;
+
+                lastDropArea = dropArea;
                 return;
             }
         }
         // If not dropped on any drop area, return to start
+        if (lastDropArea != null)
+        {
+            lastDropArea.currentItem = null;
+            lastDropArea = null;
+        }
         transform.position = startPosition;
         transform.SetParent(originalParent);
         isPlaced = false;
@@ -62,9 +78,14 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        // Only allow reset if not currently being dragged and not already at original parent
         if (transform.parent != originalParent)
         {
+            // If currently in a drop area, free it
+            if (lastDropArea != null)
+            {
+                lastDropArea.currentItem = null;
+                lastDropArea = null;
+            }
             transform.position = startPosition;
             transform.SetParent(originalParent);
             isPlacedCorrectly = false;
