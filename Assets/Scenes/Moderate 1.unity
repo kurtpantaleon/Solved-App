@@ -1110,7 +1110,7 @@ GameObject:
   - component: {fileID: 298359699}
   - component: {fileID: 298359698}
   m_Layer: 0
-  m_Name: Bag
+  m_Name: Bag List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1133,7 +1133,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 495, y: 30.21}
+  m_AnchoredPosition: {x: 495, y: 30.210007}
   m_SizeDelta: {x: 183.52, y: 144.46}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298359698
@@ -1322,7 +1322,7 @@ GameObject:
   - component: {fileID: 375765912}
   - component: {fileID: 375765911}
   m_Layer: 0
-  m_Name: Tire
+  m_Name: Tire List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 441940334}
   - component: {fileID: 441940333}
   m_Layer: 0
-  m_Name: Box
+  m_Name: Box List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,7 +1421,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -489, y: 29.58}
+  m_AnchoredPosition: {x: -489, y: 29.580002}
   m_SizeDelta: {x: 169.32, y: 137.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441940333
@@ -1610,7 +1610,7 @@ GameObject:
   - component: {fileID: 497923428}
   - component: {fileID: 497923427}
   m_Layer: 0
-  m_Name: Apple
+  m_Name: Apple List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1633,7 +1633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -681, y: 30.475}
+  m_AnchoredPosition: {x: -681, y: 30.475006}
   m_SizeDelta: {x: 178.99, y: 144.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &497923427
@@ -2323,7 +2323,7 @@ GameObject:
   - component: {fileID: 925743281}
   - component: {fileID: 925743280}
   m_Layer: 0
-  m_Name: Trashcan
+  m_Name: Trashcan List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2346,7 +2346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: 29.425}
+  m_AnchoredPosition: {x: -115, y: 29.425003}
   m_SizeDelta: {x: 160.75, y: 130.23}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &925743280
@@ -2954,7 +2954,7 @@ GameObject:
   - component: {fileID: 1114059668}
   - component: {fileID: 1114059667}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Plane List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2977,7 +2977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 77, y: 29.425}
+  m_AnchoredPosition: {x: 77, y: 29.425003}
   m_SizeDelta: {x: 194.81, y: 147.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114059667
@@ -4442,7 +4442,7 @@ GameObject:
   - component: {fileID: 1567129776}
   - component: {fileID: 1567129775}
   m_Layer: 0
-  m_Name: Book
+  m_Name: Book List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5017,7 +5017,7 @@ GameObject:
   - component: {fileID: 1994834784}
   - component: {fileID: 1994834783}
   m_Layer: 0
-  m_Name: Ruler
+  m_Name: Ruler List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5040,7 +5040,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 288, y: 31.115}
+  m_AnchoredPosition: {x: 288, y: 31.115005}
   m_SizeDelta: {x: 185.82, y: 146.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1994834783
@@ -5093,7 +5093,7 @@ GameObject:
   - component: {fileID: 2006016301}
   - component: {fileID: 2006016300}
   m_Layer: 0
-  m_Name: Umbrella
+  m_Name: Umbrella List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5116,7 +5116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -302, y: 30.475}
+  m_AnchoredPosition: {x: -302, y: 30.475006}
   m_SizeDelta: {x: 178.97, y: 144.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006016300
@@ -5305,7 +5305,7 @@ GameObject:
   - component: {fileID: 2083153733}
   - component: {fileID: 2083153732}
   m_Layer: 0
-  m_Name: BabyTroll
+  m_Name: BabyTroll List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5328,7 +5328,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 887, y: 29.425}
+  m_AnchoredPosition: {x: 887, y: 29.425003}
   m_SizeDelta: {x: 168.57, y: 132.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083153732
