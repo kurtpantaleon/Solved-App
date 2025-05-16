@@ -14,12 +14,12 @@ public class DragItem : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     void Start()
     {
         parentCanvas = GetComponentInParent<Canvas>();
+        startPosition = transform.position;
+        originalParent = transform.parent;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        startPosition = transform.position;
-        originalParent = transform.parent;
         isPlacedCorrectly = false;
         isPlaced = false;
 
