@@ -1524,6 +1524,7 @@ GameObject:
   - component: {fileID: 909314193}
   - component: {fileID: 909314192}
   - component: {fileID: 909314191}
+  - component: {fileID: 909314194}
   m_Layer: 0
   m_Name: next Btn
   m_TagString: Untagged
@@ -1632,6 +1633,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 909314189}
   m_CullTransparentMesh: 1
+--- !u!114 &909314194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909314189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c681e7c26dd10f24abd3763bc1d473ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Level Selection Hard
+  clickSound: {fileID: 8300000, guid: 1231f62f4491d1744981c842e68f0558, type: 3}
+  delayBeforeLoad: 0.5
 --- !u!1 &923155854
 GameObject:
   m_ObjectHideFlags: 0
