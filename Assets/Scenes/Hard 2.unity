@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dragItems:
   - {fileID: 299472349}
-  nextSceneName: Level Selection Hard
+  nextSceneName: Hard 3
   submitButton: {fileID: 959191029}
   feedbackText: {fileID: 36489255}
 --- !u!4 &1149076615
